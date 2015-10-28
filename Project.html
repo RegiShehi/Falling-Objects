@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<html>
+    <head>	
+        <title>My first game</title>
+		<link href = "project.css" type = "text/css" rel = "stylesheet"/>	
+    </head>
+	
+    <body>	
+		<!--loads the audio for the beginning of the game-->
+		<audio preload="true" id="collide">
+			<source src="ow.mp3" type="audio/mp3">
+		</audio>
+		
+		<!--loads the audio for the ending of the game-->
+		<audio id="end">
+			<source src="end.mp3" type="audio/mp3">
+		</audio>
+		
+		<!--define element for the beginning of the game-->
+		<div id = "startGame" class="centerStartGame" >		
+		</div>
+		
+		<!--define element for the ending of the game-->
+		<div id = "endGame" class="centerEndGame" >			
+		</div>
+				
+		<!--define canvas id-->
+        <canvas id="canvas"></canvas>
+		
+		<script type="text/javascript" src="project.js"></script>	        	
+    </body>
+</html>

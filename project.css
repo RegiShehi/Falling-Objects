@@ -1,0 +1,113 @@
+/*define the position of the body*/
+body 
+	{
+		position: relative;
+	}
+	
+/*define what will be displayed in the canvas at the beginning of the game*/
+.centerStartGame 
+	{			
+		background: url("controller.jpeg") no-repeat;
+		background-size: 100%;
+		margin: 50px auto;
+		z-index:1;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		width: 300px;
+		height: 470px;
+		line-height: 50px;
+		color: #fff;
+		text-align: center;
+		-webkit-box-shadow: 2px 2px 5px #000; 
+		-moz-bot-shadow: 2px 2px 5px #000;
+	}
+			
+/*define what will be displayed in the canvas at the end of the game*/
+.centerEndGame 
+	{			
+		background-color: #000;
+		border: 5px solid white;
+		background-size: 100%;
+		margin: 150px auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		width: 285px;
+		height: 300px;
+		line-height: 50px;
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		-webkit-box-shadow: 2px 2px 5px #000; 
+		-moz-bot-shadow: 2px 2px 5px #000;
+	}
+			
+/*define canvas property*/
+canvas 
+	{
+		display: block;
+		margin: 0 auto;
+	}
+			
+/*define properties for button 1*/
+.button1 
+	{
+		border: 5px solid white;
+		background: #d82800;
+		padding: 16px 32px;
+		margin-bottom: 25px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		border-radius: 16px;
+		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		text-shadow: rgba(0,0,0,.4) 0 1px 0;
+		color: white;
+		font-size: 20px;
+		font-family: Georgia, serif;
+		text-decoration: none;
+		vertical-align: middle;
+		width: 200px;
+	}
+			
+/*define properties for button 2*/	
+.button2 
+	{
+		border: 5px solid white;
+		background: #000;
+		padding: 16px 32px;
+		margin-bottom: 25px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		border-radius: 16px;
+		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		text-shadow: rgba(0,0,0,.4) 0 1px 0;
+		color: white;
+		font-size: 20px;
+		font-family: Georgia, serif;
+		text-decoration: none;
+		vertical-align: middle;
+		width: 200px;
+		padding-bottom: 25px;
+	}			
+			
+/*define properties for button 3*/
+.button3 
+	{
+		border: 5px solid white;
+		background: #000;
+		padding: 16px 32px;
+		margin-bottom: 25px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		border-radius: 16px;
+		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		text-shadow: rgba(0,0,0,.4) 0 1px 0;
+		color: white;
+		font-size: 20px;
+		font-family: Georgia, serif;
+		text-decoration: none;
+		vertical-align: middle;
+		width: 200px;
+	}
