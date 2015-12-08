@@ -95,7 +95,7 @@ function game()
 			}
 		};
 	
-	//object that draws the white line that separates the score from the rest of the canvas.
+	//object that draws the white line that separates the score from the rest of the canvas
 	var line = {
 		draw: function()
 		{
